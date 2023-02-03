@@ -1,0 +1,12 @@
+CREATE DATABASE nombrebd;
+USE nombrebd;
+DROP DATABASE nombrebd;
+CREATE TABLE nombretabla (columna1 tipodedato, columna2 tipodedato, ...);
+ALTER TABLE nombretabla ADD COLUMN nuevacolumna tipodedato;
+DROP TABLE nombretabla;
+INSERT INTO nombretabla (columna1, columna2, ...) VALUES (valor1, valor2, ...);
+SELECT * FROM nombretabla;
+SELECT columna1, columna2, ... FROM nombretabla;
+UPDATE nombretabla SET columna1 = nuevovalor WHERE condicion;
+DELETE FROM nombretabla WHERE condicion;
+TRUNCATE TABLE nombretabla;
